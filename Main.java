@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Ücreti Tutarını Giriniz: ");
+        System.out.println("Tutarını Giriniz: ");
         double tutar = input.nextDouble();
         if (tutar > 1000.0D) {
             tutar += tutar * 0.18D;
